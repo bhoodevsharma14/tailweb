@@ -1,0 +1,4 @@
+ENV/
+.pytest_cache
+*/__pycache__/
+*/migrations/
