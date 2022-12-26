@@ -1,0 +1,27 @@
+<div class="container">
+
+  <h3 class="d-flex justify-content-center">Tailweb Task </h3>
+
+  <app-login>
+
+  </app-login>
+
+  <nav class="navbar navbar-expand-sm bg-light navbar-dark" *ngIf='authorization!=0'>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <button routerLink="score" class="m-1 btn btn-light btn-outline-primary" Button>Score</button>
+      </li>
+
+      <li class="nav-item">
+        <button routerLink="subject" class="m-1 btn btn-light btn-outline-primary" Button>Subject</button>
+      </li>
+
+      <li class="nav-item">
+        <button routerLink="student" class="m-1 btn btn-light btn-outline-primary" Button>Student</button>
+      </li>
+    </ul>
+  </nav>
+
+  <router-outlet></router-outlet>
+
+</div>
