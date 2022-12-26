@@ -42,6 +42,6 @@ eg. `app/score/2/` with delete requeset
 <br>
 Similarly we can do it with student endpoint and subject endpoint
 <bold>NOTE:- <br>
-1. UPDATE WILL NOT CREATE NEW USER OR NEW SUBJECT <br>
+1. UPDATE will not create new student OR new subject , CREATE score will create New student if the specific name not present in student table and New subject if the specific subject is not present in subject table  <br>
 2. Update Request the student and subject id will be provided to update the record.
 </bold>
